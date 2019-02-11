@@ -1,0 +1,9 @@
+@import "libs.css";
+@import "variables.css";
+@import "fonts.css";
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--mainColor);
+}
