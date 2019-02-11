@@ -1,0 +1,43 @@
+/* Flex presets */
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.flex.flex--column {
+    flex-direction: column;
+}
+
+.flex.flex--center {
+    justify-content: center;
+}
+
+/* nav */
+.nav { 
+    position: relative;
+
+    padding: 25px 0;
+    text-align: left;
+    
+    border-bottom: 1px solid #e7e7e7;
+    box-shadow: 0 3px 13px rgba(0, 0, 0, 0.15);
+}
+
+.nav .nav__logo {
+    max-width: 320px;
+    min-width: 200px;
+}
+
+.nav .nav__menu ul {
+    margin: 0;
+    padding: 0;
+}
+.nav .nav__menu ul li {
+    display: inline-block;
+    list-style: none;
+}
+.nav .nav__menu ul li a {
+    display: inline-block;
+    padding: 0 15px;
+}

@@ -1,4 +1,8 @@
 :root {
     --mainColor: #ff0000;
     --secondaryColor: #000;
+    --linkColor: var(--mainColor);
+
+    --bodyFont: "Roboto", sans-serif;
+    --headerFont: "Montserrat", sans-serif;
 }
